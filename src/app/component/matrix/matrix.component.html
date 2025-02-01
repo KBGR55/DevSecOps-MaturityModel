@@ -1,7 +1,9 @@
 <div class="content">
   <app-top-header section="Matrix"></app-top-header>
   <mat-form-field class="activity-chip-list">
-    <mat-label>SubDimension Filter</mat-label>
+    <mat-label class="mat-label-1" matTooltip="Define el conjunto de criterios utilizados para clasificar o agrupar elementos dentro de una dimensión específica.">
+      SubDimension Filter
+    </mat-label>       
     <mat-chip-list #chipList selectable multiple>
       <mat-chip
         #c="matChip"
@@ -14,7 +16,7 @@
     </mat-chip-list>
   </mat-form-field>
   <mat-form-field class="activity-chip-list">
-    <mat-label>Activity Tag Filter</mat-label>
+    <mat-label class="mat-label-1">Activity Tag Filter</mat-label>
     <mat-chip-list selectable multiple>
       <mat-chip
         #c="matChip"

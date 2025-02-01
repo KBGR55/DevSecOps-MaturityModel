@@ -2,6 +2,7 @@
   width: 100%;
   /*background-color: gainsboro;*/
 }
+
 .mat-form-field {
   margin: 20px;
   margin-bottom: 0;
@@ -37,10 +38,12 @@
   margin-bottom: 1em;
   position: relative;
 }
+
 .mat-cell-activity a.activity-title {
   text-decoration: unset;
   margin: 0;
 }
+
 .mat-cell-activity a::after {
   content: "";
   position: absolute;
@@ -49,6 +52,7 @@
   width: 100%;
   height: 100%;
 }
+
 .mat-cell-activity a.activity-title:link {
   color: inherit;
 }
@@ -64,6 +68,7 @@
   color: rgb(0, 113, 151);
   font-size: 12px;
 }
+
 .reset-button {
   background-color: #66bb6a;
   display: block;
@@ -71,4 +76,68 @@
   padding: 7px 12px;
   border-radius: 16px;
   font: 500 14px / 20px Roboto, 'Helvetica Neue', sans-serif;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #4caf50;
+  /* Un verde más oscuro al hacer hover */
+  transform: scale(1.05);
+  /* Aumenta un poco el tamaño */
+}
+
+.reset-button:active {
+  background-color: #388e3c;
+  /* Aún más oscuro cuando se hace clic */
+  transform: scale(0.98);
+  /* Un pequeño efecto de presión */
+}
+
+.reset-button:focus {
+  outline: none;
+  /* Elimina el borde por defecto */
+  box-shadow: 0 0 0 4px rgba(102, 187, 106, 0.5);
+  /* Agrega un enfoque suave */
+}
+
+
+.mat-label-1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  margin: 20px 20px;
+  padding: 7px 12px;
+  border-left: 4px solid #76ABAE;
+  padding-left: 10px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #222831;
+  color: #EEEEEE;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
