@@ -1,8 +1,6 @@
 .content-box {
   margin: 20px;
   width: 95%;
-  /*height: 100%;*/
-  /*background-color: paleturquoise;*/
 }
 
 .mat-form-field + .mat-form-field {
@@ -12,6 +10,81 @@
 .mat-raised-button {
   margin-right: 8px;
 }
+
+.section-title {
+  display: flex;
+  align-items: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #4CAF50;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+}
+.section-title span {
+  margin-left: 15px;
+  font-size: 0.9em;
+  color: #66bb6a !important;
+}
 .teams-implemented-list {
   list-style: none;
+}
+
+.green-panel-1 {
+  border: 3px solid #a8e6cf; /* Verde claro */
+}
+
+.green-panel-2 {
+  border: 3px solid #8bc34a; /* Verde menta */
+}
+
+.green-panel-3 {
+  border: 3px solid #81c784; /* Verde más oscuro */
+}
+
+.green-panel-4 {
+  border: 3px solid #66bb6a; /* Verde intermedio */
+}
+
+.green-panel-5 {
+  border: 3px solid #66bb6a; /* Verde pasto */
+}
+
+.green-panel-6 {
+  border: 3px solid #7cb342; /* Verde esmeralda */
+}
+
+.green-panel-7 {
+  border: 3px solid #4caf50; /* Verde lima */
+}
+
+.green-panel-8 {
+  border: 3px solid #43a047; /* Verde más intenso */
+}
+
+.green-panel-9 {
+  border: 3px solid #388e3c; /* Verde oscuro */
+}
+
+.green-panel-10 {
+  border: 3px solid #388e3c; /* Verde bosque claro */
+}
+
+.green-panel-11 {
+  border: 3px solid #2e7d32; /* Verde muy oscuro */
+}
+
+.green-panel-12 {
+  border: 3px solid #2c6e2f; /* Verde oliva */
+}
+
+.green-panel-13 {
+  border: 3px solid #00695c; /* Verde teal */
+}
+
+.green-panel-14 {
+  border: 3px solid #004d40; /* Verde selva */
+}
+
+.green-panel-15 {
+  border: 3px solid #1b5e20; /* Verde bosque */
 }
