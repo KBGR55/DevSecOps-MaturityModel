@@ -25,7 +25,7 @@ strings:
     KnowledgeLabels:
       [
         'Very Low (one discipline)',
-        'Low (one discipline)',
+        'Low (one discipliSne)',
         'Medium (two disciplines)',
         'High (two disciplines)',
         'Very High (three or more disciplines)',
@@ -39,9 +39,15 @@ strings:
         'Level 4: Very high adoption of security practices',
         'Level 5: Advanced deployment of security practices at scale',
       ]
-# Default team
-teams: ['Default', 'B', 'C']
+      
+# Equipos
+teams: ['Frontend', 'Backend', 'DevOps', 'Quality Assurance', 'UI/UX Design', 'Product Strategy']
+
+# Grupos de Equipos
 teamGroups:
-  GroupA: ['Default', 'B']
-  GroupB: ['B', 'C']
-  GroupC: ['Default', 'C']
+  InterfaceEngineering: ['Frontend', 'UI/UX Design']
+  CoreArchitecture: ['Backend', 'DevOps']
+  QualityControl: ['Quality Assurance', 'DevOps']
+  ProductLeadership: ['UI/UX Design', 'Product Strategy']
+  FullStackDelivery: ['Frontend', 'Backend', 'DevOps', 'Quality Assurance']
+
